@@ -16,4 +16,4 @@ The repository includes a build script, inputs, code, and answers.
    ~ANSWER~
 
 ## Completed
-Day 1 - Part 1
+Day 1 - Part 1, Part 2

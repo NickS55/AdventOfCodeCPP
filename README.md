@@ -5,13 +5,18 @@ My personal repository of original [2023 Adevnt of Code](https://adventofcode.co
 A build script, inputs, code and answers are provided within this repository. 
 
 ## How to Run on Mac
-1) Install G++ via homebrew
-2) run the gccp.sh script within the to compile programs in debug mode
+1) Install G++ via homebrew `$ brew install gcc`
+2) Run the gccp.sh script within the to compile programs in debug mode
 
-'''
-ex.
+```
+$ pwd
+AdventOfCodeCPP/Day1
 $ sh ../gccp.sh day1.cpp
 $ ./a.out
-OUTPUT
-'''
+~ANSWER~
+```
+
+Completed: 
+Day 1 - P1
+
 

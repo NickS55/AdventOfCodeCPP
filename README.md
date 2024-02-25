@@ -6,7 +6,7 @@ A build script, inputs, code and answers are provided within this repository.
 
 ## How to Run on Mac
 1) Install G++ via homebrew `$ brew install gcc`
-2) Run the gccp.sh script within the to compile programs in debug mode
+2) Run the gccp.sh script to compile programs in debug mode
 
 ```
 $ pwd

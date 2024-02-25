@@ -1,6 +1,6 @@
 # AdventOfCodeCPP
 
-My personal repository of original [2023 Adevnt of Code](https://adventofcode.com/2023/about) solutions written in C++.
+My personal repository of original [2023 Advent of Code](https://adventofcode.com/2023/about) solutions written in C++.
 
 A build script, inputs, code and answers are provided within this repository. 
 

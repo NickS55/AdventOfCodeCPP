@@ -79,23 +79,18 @@ int main(int argc, char *argv[]) {
   string nextText{};
   string newText{};
 
-  int lines{};
-
   int sum{};
   getline(File, curText);
   getline(File, nextText);
   sum += getSumEngineValues(curText, nextText, prevText);
-  lines += 1;
   while (getline(File, newText)) {
     prevText = curText;
     curText = nextText;
     nextText = newText;
     sum += getSumEngineValues(curText, nextText, prevText);
-    lines += 1;
   }
   // Assumes that there are no symbols on the last line (nextText).
   sum += getSumEngineValues(nextText, nextText, curText);
-  lines += 1;
   cout << sum << "\n";
   File.close();
   return 0;

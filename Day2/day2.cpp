@@ -1,4 +1,5 @@
 // Day 2: Part 1
+// Day 2: part 2
 
 #include <cstddef>
 #include <fstream>
@@ -77,8 +78,8 @@ int main() {
     gameNumber += 1;
   }
 
-  std::cout << powerSum << "\n";
-  std::cout << gameSum;
+  std::cout << "Part1 : " << gameSum;
+  std::cout << "Part2 : " << powerSum << "\n";
 
   return 0;
 }

@@ -56,6 +56,7 @@ bool isValidGame(int red, int green, int blue) {
 
 int main() {
   int gameSum{0};
+  int powerSum{0};
 
   std::ifstream File("input.txt");
   std::string textLine{};
@@ -72,9 +73,11 @@ int main() {
                   ? gameSum + gameNumber
                   : gameSum;
 
+    powerSum += curMaxBlue * curMaxRed * curMaxGreen;
     gameNumber += 1;
   }
 
+  std::cout << powerSum << "\n";
   std::cout << gameSum;
 
   return 0;

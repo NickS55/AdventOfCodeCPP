@@ -93,6 +93,7 @@ int main(int argc, char *argv[]) {
     sum += getSumEngineValues(curText, nextText, prevText);
     lines += 1;
   }
+  // Assumes that there are no symbols on the last line (nextText).
   sum += getSumEngineValues(nextText, nextText, curText);
   lines += 1;
   cout << sum << "\n";

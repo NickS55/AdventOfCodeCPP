@@ -24,6 +24,7 @@ The repository includes a build script, inputs, code, and answers.
 1. $ cd <dayXX> 
 2. $ cmake -DCMAKE_EXPORT_COMPILE_COMMANDS=ON .
 3. $ cmake --build . 
+4. $ ./<dayXX> <inputFile.txt>
 
 ## Completed
 - Day 1 - Part 1, Part 2 

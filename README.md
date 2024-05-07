@@ -21,6 +21,7 @@ The repository includes a build script, inputs, code, and answers.
 ## How to Run on Mac - Days 3+ 
 ### After completing the first set of instructions...
 
+0. $ brew install cmake
 1. $ cd < dayXX > 
 2. $ cmake -DCMAKE_EXPORT_COMPILE_COMMANDS=ON .
 3. $ cmake --build . 

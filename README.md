@@ -28,4 +28,4 @@ The repository includes a build script, inputs, code, and answers.
 ## Completed
 - Day 1 - Part 1, Part 2 
 - Day 2 - Part 1, Part 2 
-- Day 3 - Part 1
+- Day 3 - Part 1, Part 2

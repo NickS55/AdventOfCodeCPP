@@ -47,6 +47,7 @@ int getSumEngineValues(std::string cur, std::string next, std::string prev) {
   int rightIndex{-1};
   while (i <= cur.length()) {
     int curValue{getCharValue(cur[i])};
+    // if curValue is a number
     if (curValue > -1) {
       curSum *= 10;
       curSum += curValue;
@@ -88,6 +89,7 @@ int main(int argc, char *argv[]) {
     curText = nextText;
     nextText = newText;
     sum += getSumEngineValues(curText, nextText, prevText);
+    cout << getSumEngineValues(curText, nextText, prevText) << '\n';
   }
   // Assumes that there are no symbols on the last line (nextText).
   sum += getSumEngineValues(nextText, nextText, curText);

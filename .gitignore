@@ -1,2 +1,76 @@
-*.out
 *.dSYM
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Build folder
+build
+
+
+# CMake
+# CMake build directory
+/build/
+
+# CMake cache files
+*/CMakeCache.txt
+*/CMakeFiles/
+*/CMakeScripts/
+/CMakeScripts/*
+
+# CMake generated files
+/cmake_install.cmake
+/*.cmake
+/*.cbp
+/*.layout
+/*.mcp
+/*.workspace
+/*.sln
+/*.vcxproj
+/*.vcxproj.filters
+/*.vcxproj.user
+# Ignore generated CMake files and directories
+/build/
+/CMakeCache.txt
+/CMakeFiles/
+/cmake_install.cmake
+/CMakeFiles/CMakeConfigureLog.yaml
+/CMakeFiles/CMakeDirectoryInformation.cmake
+/CMakeFiles/Makefile.cmake
+/CMakeFiles/Makefile2
+/CMakeFiles/TargetDirectories.txt
+/CMakeFiles/cmake.check_cache
+/CMakeFiles/progress.marks
+/compile_commands.json
+
+# cache
+.cache*
